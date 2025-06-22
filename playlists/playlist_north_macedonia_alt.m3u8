@@ -1,7 +1,9 @@
-#EXTINF:-1 tvg-id="MRT1.mk" tvg-name="MRT1" tvg-logo="https://i.imgur.com/EkkyAE0.png" group-title="North Macedonia", MRT1 (placeholder – stream currently unavailable)
+#EXTM3U
+########## 📡 MRT CHANNEL PLACEHOLDERS ##########
+#EXTINF:-1 tvg-id="MRT1.mk" tvg-name="MRT1" tvg-logo="https://i.imgur.com/EkkyAE0.png" group-title="North Macedonia", MRT1 (placeholder – currently unavailable)
 # placeholder: https://example.com/mrt1.m3u8
 
-#EXTINF:-1 tvg-id="MRT2.mk" tvg-name="MRT2" tvg-logo="https://i.imgur.com/YvOrUnN.png" group-title="North Macedonia", MRT2 (placeholder – stream currently unavailable)
+#EXTINF:-1 tvg-id="MRT2.mk" tvg-name="MRT2" tvg-logo="https://i.imgur.com/YvOrUnN.png" group-title="North Macedonia", MRT2 (placeholder – currently unavailable)
 # placeholder: https://example.com/mrt2.m3u8
 
 #EXTINF:-1 tvg-id="MRTSobraniskikanal.mk" tvg-name="MRT Sobraniski Kanal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Logo_of_MRT_Assembly_Channel_%282012-%29.svg/634px-Logo_of_MRT_Assembly_Channel_%282012-%29.svg.png" group-title="North Macedonia", MRT Sobraniski Kanal (placeholder)
@@ -21,3 +23,68 @@
 
 #EXTINF:-1 tvg-id="MRT2Sat.mk" tvg-name="MRT 2 Sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_of_MRT_2_SAT_%282012-%29.svg/640px-Logo_of_MRT_2_SAT_%282012-%29.svg.png" group-title="North Macedonia", MRT 2 Sat (placeholder)
 # placeholder: https://example.com/mrt2_sat.m3u8
+
+########## 📺 NATIONAL & MAJOR PRIVATE CHANNELS ##########
+#EXTINF:-1 tvg-id="Alsat.mk" tvg-name="Alsat M" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Logo_of_Alsat_TV_%282020-%29.svg/640px-Logo_of_Alsat_TV_%282020-%29.svg.png" group-title="North Macedonia", Alsat M
+https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Alsat_M)/index.m3u8
+#EXTINF:-1 tvg-id="TelmaTV.mk" tvg-name="Telma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Logo_of_Telma_%282016-%29.svg/497px-Logo_of_Telma_%282016-%29.svg.png" group-title="North Macedonia", Telma
+https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Telma)/index.m3u8
+#EXTINF:-1 tvg-id="Kanal5.mk" tvg-name="Kanal 5" tvg-logo="https://i.imgur.com/Qw7N3S2.png" group-title="North Macedonia", Kanal 5
+https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(Kanal_5)/index.m3u8
+#EXTINF:-1 tvg-id="TV21.mk" tvg-name="TV 21" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_of_TV21_Macedonia.svg/640px-Logo_of_TV21_Macedonia.svg.png" group-title="North Macedonia", TV 21
+https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV21)/index.m3u8
+#EXTINF:-1 tvg-id="24.mk" tvg-name="TV 24" tvg-logo="https://i.imgur.com/MFKeNZx.png" group-title="North Macedonia", TV 24
+https://hls.telekabel.com.mk:1936/live/11/playlist.m3u8
+#EXTINF:-1 tvg-id="tvnova12.mk" tvg-name="TV Nova 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" group-title="North Macedonia", TV Nova 12
+http://151.236.247.171:8080/nova/index.m3u8
+########## 🏘️ REGIONAL & LOCAL CHANNELS ##########
+#EXTINF:-1 tvg-id="Zdravkin" tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" group-title="North Macedonia", Телевизија Здравкин
+http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
+#EXTINF:-1 tvg-id="TV Orbis" tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" group-title="North Macedonia", Орбис
+http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8
+#EXTINF:-1 tvg-id="kanal8.mk" tvg-name="Канал 8" tvg-logo="https://i.imgur.com/5skC7be.png" group-title="North Macedonia", Канал 8
+http://kanal8.hugo.mk:1935/live/kanal8/index.m3u8
+#EXTINF:-1 tvg-id="tvsvet.com.mk" tvg-name="ТВ СВЕТ" tvg-logo="https://i.imgur.com/R79xT60.png" group-title="North Macedonia", ТВ СВЕТ
+http://tvsvet.hugo.mk:1936/live/tvsvet/stream/3.m3u8
+#EXTINF:-1 tvg-id="vardar tv" tvg-name="Вардар тв" tvg-logo="https://i.imgur.com/c2JHg9R.png" group-title="North Macedonia", Вардар тв
+https://streaming.iptv.mk/fcvardar/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="zona m1" tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" group-title="North Macedonia", ЗОНА М1 ТВ
+https://zonam1.ddns.net/hls/stream1.m3u8
+#EXTINF:-1 tvg-id="tvnova12.mk" tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" group-title="North Macedonia", ТВ НОВА 12
+http://151.236.247.171:8080/nova/index.m3u8
+
+########## 🎶 MUSIC, CULTURE & SPECIAL INTEREST ##########
+#EXTINF:-1 tvg-id="mnet.mk" tvg-name="M»Net" tvg-logo="https://i.imgur.com/JWHcGMX.png" group-title="North Macedonia", M»Net
+http://ares.mnet.mk/hls/mnet.m3u8
+#EXTINF:-1 tvg-id="sport.mnet.mk" tvg-name="M»Net Sport" tvg-logo="https://i.imgur.com/q3DV2gP.png" group-title="North Macedonia", M»Net Sport
+http://ares.mnet.mk/hls/mnet-sport.m3u8
+#EXTINF:-1 tvg-id="info.mnet.mk" tvg-name="M»Net Info" tvg-logo="https://i.imgur.com/O26HEyC.png" group-title="North Macedonia", M»Net Info
+http://ares.mnet.mk/hls/mnet-info.m3u8
+#EXTINF:-1 tvg-id="NasaTV.mk" tvg-name="Наша ТВ" tvg-logo="https://i.imgur.com/EOLrXvB.png" group-title="North Macedonia", Наша ТВ
+https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
+#EXTINF:-1 tvg-id="CoolTV.mk" tvg-name="Cool TV" tvg-logo="https://i.imgur.com/2tFrjUz.png" group-title="North Macedonia", Cool TV
+https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
+#EXTINF:-1 tvg-id="FolkTV.mk" tvg-name="Folk TV" tvg-logo="https://i.imgur.com/4b9aZ9P.png" group-title="North Macedonia", Folk TV
+https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
+#EXTINF:-1 tvg-id="JazzTV.mk" tvg-name="Jazz TV" tvg-logo="https://i.imgur.com/4U6Ju5G.png" group-title="North Macedonia", Jazz TV
+https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
+#EXTINF:-1 tvg-id="LoveTV.mk" tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" group-title="North Macedonia", Love TV
+https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
+#EXTINF:-1 tvg-id="RockTV.mk" tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" group-title="North Macedonia", Rock TV
+https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
+#EXTINF:-1 tvg-id="StarFolkTV.mk" tvg-name="Стар Фолк" tvg-logo="https://i.imgur.com/7RstQYI.png" group-title="North Macedonia", Стар Фолк
+https://live.muzickatv.mk/live/StarMusic.m3u8
+#EXTINF:-1 tvg-id="SkyFolkTV.mk" tvg-name="Sky Folk" tvg-logo="https://i.imgur.com/xRw4Hmu.png" group-title="North Macedonia", Sky Folk
+https://skyfolk.mk/live.m3u8
+#EXTINF:-1 tvg-id="Hugo2.mk" tvg-name="Хуго 2" tvg-logo="https://i.imgur.com/yb3xjOZ.png" group-title="North Macedonia", Хуго 2
+http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
+#EXTINF:-1 tvg-id="FolkClubTV.mk" tvg-name="Folk Club TV" tvg-logo="https://i.imgur.com/vkGFSl8.png" group-title="North Macedonia", Folk Club TV
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
+#EXTINF:-1 tvg-id="INTV.mk" tvg-name="INTV" tvg-logo="https://i.imgur.com/K7BSjqY.png" group-title="North Macedonia", INTV
+http://tv1.intv.mk:1935/live/intv/index.m3u8
+#EXTINF:-1 tvg-id="MacDocTV.mk" tvg-name="Macedonian Documentary Channel" tvg-logo="https://i.imgur.com/uYyG2oA.png" group-title="North Macedonia", Macedonian Documentary Channel
+https://giganet.mk/hls/macdoc.m3u8
+#EXTINF:-1 tvg-id="VistelTV.mk" tvg-name="Вистел" tvg-logo="https://i.imgur.com/MbM0E6L.png" group-title="North Macedonia", Вистел
+https://live.vtv.mk/live/vtv/chunks.m3u8
+#EXTINF:-1 tvg-id="StarPlus.mk" tvg-name="Стар Плус" tvg-logo="https://i.imgur.com/01yz22a.png" group-title="North Macedonia", Стар Плус
+https://live.muzickatv.mk/live/StarMusic2.m3u8
